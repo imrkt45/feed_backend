@@ -13,10 +13,10 @@ COPY . .
 
 # Development environment variables
 ENV NODE_ENV=development
-ENV PORT=5000
+ENV PORT=5001
 
 # Expose the default application port
-EXPOSE 5000
+EXPOSE 5001
 
 # Start the application using nodemon for live reload during development
 CMD ["npm", "run", "dev"]
